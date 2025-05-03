@@ -1,0 +1,24 @@
+paddleocr==2.6.1.3
+paddlepaddle==2.5.0
+opencv-python
+Pillow
+numpy
+regex
+
+# LLM Support
+transformers>=4.36.2
+torch>=2.1.0
+accelerate
+sentencepiece
+huggingface_hub
+
+# Streamlit UI
+streamlit
+
+# Validation and Utils
+pydantic
+python-multipart
+IPython
+
+# Optional: If LLaVA or Vision-Language support is needed
+# llava==1.1.2 (use the appropriate version or repo if from source)
